@@ -1,4 +1,6 @@
-How to install OpenGL
+# Pokemon Claw
+This is a simple 3D game of pokemon, made using OpenGl e SFML.
+*How to install OpenGL
 
     sudo apt-get install freeglut3 -y 
     sudo apt-get install freeglut3-dev -y 
@@ -17,7 +19,7 @@ How to install OpenGL
     sudo apt-get install libalut0 libalut-dev
 
 
-How to compile
+*How to compile
 
     make
     make clean
