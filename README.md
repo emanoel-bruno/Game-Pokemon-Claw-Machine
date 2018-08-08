@@ -1,5 +1,6 @@
 # Pokemon Claw
 This is a simple 3D game of pokemon, made using OpenGl e SFML.
+
 *How to install OpenGL
 
     sudo apt-get install freeglut3 -y 
