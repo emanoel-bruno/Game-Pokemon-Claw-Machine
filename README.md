@@ -1,7 +1,8 @@
-# Pokemon Claw
+# Pokemon Claw Machine
+
 This is a simple 3D game of pokemon, made using OpenGl e SFML.
 
-*How to install OpenGL*
+## How to install OpenGL
 
     sudo apt-get install freeglut3 -y 
     sudo apt-get install freeglut3-dev -y 
@@ -20,7 +21,7 @@ This is a simple 3D game of pokemon, made using OpenGl e SFML.
     sudo apt-get install libalut0 libalut-dev
 
 
-*How to compile*
+## How to compile
 
     make
     make clean
