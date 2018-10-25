@@ -25,4 +25,7 @@ This is a simple 3D game of pokemon, made using OpenGl e SFML.
 
     make
     make clean
+    
+## How to play
+
     ./tp2
