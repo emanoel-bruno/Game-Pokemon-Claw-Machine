@@ -21,5 +21,5 @@ main.o: main.cpp $(HEADERS)
 clean:
 	rm -rf *.o
 clean-all: 
-	rm -rf tp1 *.o
+	rm -rf tp2 *.o
 
