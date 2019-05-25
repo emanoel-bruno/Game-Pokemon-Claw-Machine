@@ -22,21 +22,26 @@ This is a simple 3D game of pokemon, made using OpenGl e SFML.
 
 ## How to install OpenGL on Arch based distos
 
-    sudo pacman -Ss lib soil
-    sudo pacman -Syu soil glew freeglut
-    sudo pacman -Syu soil glew openal
-    sudo pacman -Syu sfml
-    sudo pacman -Syu glm
-    sudo pacman -Syu freealut
-
-
+    sudo pacman -Syu soil glew openal freeglut
+    sudo pacman -Syu sfml glm freealut
 
 ## How to compile
 
     make-clean-all
     make
     make clean
-    
+
+
 ## How to play
 
     ./tp2
+
+## Authors
+
+* **Emanoel Bruno** - *Initial work* - [emanoel-bruno](https://github.com/emanoel-bruno)
+
+See also the list of [contributors](https://github.com/emanoel-bruno/Tips-Git/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the Apache License - see the [LICENSE](LICENSE.md) file for details
