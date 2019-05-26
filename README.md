@@ -27,13 +27,12 @@ This is a simple 3D game of pokemon, made using OpenGl e SFML.
 
 ## How to compile
 
-    make-clean-all
-    make
     make clean
+    make
 
 ## How to play
 
-    ./tp2
+    ./pokemon-claw
 
 ## Authors
 
