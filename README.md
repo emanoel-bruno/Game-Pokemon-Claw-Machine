@@ -2,7 +2,9 @@
 
 This is a simple 3D game of pokemon, made using OpenGl e SFML.
 
-## How to install OpenGL on Debian based distros
+## How to install 
+
+### Debian based 
 
     sudo apt-get install freeglut3 -y
     sudo apt-get install freeglut3-dev -y
@@ -20,7 +22,7 @@ This is a simple 3D game of pokemon, made using OpenGl e SFML.
     sudo apt-get install libsfml-dev -y
     sudo apt-get install libalut0 libalut-dev
 
-## How to install OpenGL on Arch based distros
+### Arch based 
 
     sudo pacman -Syu soil glew openal freeglut
     sudo pacman -Syu csfml glm freealut
