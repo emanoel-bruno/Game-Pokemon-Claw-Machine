@@ -2,7 +2,7 @@
 
 This is a simple 3D game of pokemon, made using OpenGl e SFML.
 
-## How to install OpenGL on Debian based distos
+## How to install OpenGL on Debian based distros
 
     sudo apt-get install freeglut3 -y
     sudo apt-get install freeglut3-dev -y
