@@ -5,10 +5,11 @@ LIBS    = -lglut -lGLU -lGL -lm -lSOIL  -lalut  -lopenal  -lsfml-audio
 CFLAGS  = -O3 -Wall
 
 
-all: tp2
+all: pokemon-claw
  
-tp2: $(OBJECTS)
-	g++ -o tp2 $(OBJECTS) $(CFLAGS) $(LIBS)
+pokemon-claw: $(OBJECTS)
+	g++ -o pokemon-claw $(OBJECTS) $(CFLAGS) $(LIBS)
+	rm -rf *.o
 
 objeto.o: objeto.c objeto.h
 	g++ -o objeto.o -c objeto.c $(LIBS) -nostartfiles -std=c++11
@@ -18,8 +19,7 @@ coordenadas.o: coordenadas.c coordenadas.h
 
 main.o: main.cpp $(HEADERS)
 	g++ -o main.o -c main.cpp  $(LIBS)
-clean:
-	rm -rf *.o
-clean-all: 
-	rm -rf tp2 *.o
+
+clean: 
+	rm -rf pokemon-claw *.o
 

@@ -3,7 +3,7 @@ typedef double escalar;
 
 // Estrutura que armazena 4 escalares
 struct coordenadas {
-  escalar x, y, z, w,porcentagem_x,porcentagem_y;
+	escalar x, y, z, w,porcentagem_x,porcentagem_y;
 };
 
 // Novo nome para a estrutura coordenadas: vetor
