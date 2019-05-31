@@ -44,4 +44,4 @@ See also the list of [contributors](https://github.com/emanoel-bruno/Tips-Git/co
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE](LICENSE.md) file for details
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
